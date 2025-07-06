@@ -56,6 +56,7 @@ const Home = () => {
           </div>
         </div>
         <div>
+          <h1>Hampy_laundry</h1>
           <p className="hero_inner">My happy hampy laundry day.</p>
         </div>
         <div className="downlod-btn">
