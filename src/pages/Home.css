@@ -1,0 +1,438 @@
+
+body {
+
+    margin: 0;
+    margin-left: 0px;
+    padding: 0;
+    width: 100%;
+    background-color: #FF9AB2;
+    overflow-x: hidden;
+
+
+}
+
+.Home{
+    position: relative;
+    margin-top: 0px;
+    z-index: 1;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+}
+.Header{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 100%;
+     position: absolute;
+     z-index: 10;
+     overflow: hidden;
+}
+
+.Logo {
+    width: 300px;
+    height: 200px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  /* margin-left: 50px; */
+  margin-top: 15px;
+  font-weight: 900;
+}
+
+.main-text {
+  font-family: Lugrasimo;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+  
+}
+
+.curved-text {
+    width: 300px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  left: 30%;
+  transform: translateX(-50%) rotate(6deg);
+  margin-top: -10px;
+
+}
+.curved-text span{
+      font-size: 15px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  left: 70%;
+  transform: translateX(-50%) rotate(-18deg);
+  margin-top: -10px;
+
+}
+
+
+.Header_Menu ul {
+    margin-top: -30px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background:whitesmoke;
+    border-radius: 25px;
+    font-size: larger;
+    color: rgb(214, 26, 114);
+
+
+}
+.Header_Menu ul li {
+    margin: 20px;
+
+}
+.Header_Menu ul li a{
+    color: #9F3152;
+    text-decoration: none;
+}
+
+.HamburgerMenu{
+
+    font-size: 40px;
+    color: palevioletred;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.HamburgerMenu:hover{
+    z-index: 10;
+    position: sticky;
+    color: white;
+    background: palevioletred;
+    border: 1px solid white;
+}
+
+.downlod-btn{
+         display: flex;
+     align-items: center;
+     width: 100%;
+     position: absolute;
+     z-index: 10;
+     margin-top: 60%;
+     margin-left: 10%;
+     overflow: hidden;
+
+}
+.hero_inner{
+    font-size: 100px;
+  font-family: "Charm", cursive;
+  font-weight: 900;
+  font-style: normal;      
+      display: flex;
+      color: rgb(205, 44, 98);
+     align-items: center;
+     width: 40%;
+     height: 75%;
+     position: absolute;
+     z-index: 10;
+     margin-top: 20%;
+     margin-left: 10%;
+     overflow: hidden;
+     
+}
+.apple{
+    margin: 10px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+    padding-left: 20px;
+    font-weight:200;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+.apple span{
+    font-weight: 900;
+    padding-top: 20%;
+    margin-left: -40%;
+    
+}
+.apple-logo{
+    width: 30px;
+    height: 30px;
+}
+.google_play-logo{
+    width: 30px;
+    height: 35px;
+}
+.google_play{ 
+     padding: 5px;
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+    padding-left: 20px;
+    font-weight:200;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.google_play span{
+       font-weight: 900;
+    padding-top: 20%;
+    margin-left: -25%;
+}
+
+.img{
+    width: 100%;
+    display: block;
+    position: relative;
+    width: 100Vw;
+    z-index: 1;
+}
+
+.hampyVidio Video{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    margin-top: -22%;
+    overflow: hidden;
+    width: 100vw;
+    background: rgb(255, 110, 143);
+
+}
+
+.hampyVidio_p{
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 350px;
+    font: 1.3rem sans-serif;
+    width: 500px;
+    color: white;
+    margin-left: 150px;
+
+}
+.vidio_one{ 
+     align-items: center;
+     border-radius: 5%;
+     margin-left: 100px;
+}
+
+.wasservice{
+    margin-top: 50px;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.happytoyou{
+        position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    margin-left: 160px;
+    /* margin-top: 20%; */
+    font-style: italic;
+    font-weight:bold;
+    font-size: 70px;
+    width: 450px;
+    font-weight:bolder;
+  color: white;
+
+
+}
+
+.happy{
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    margin-left: 160px;
+    /* margin-top: 20%; */
+    font-style: italic;
+    font-weight:bold;
+    font-size: 70px;
+    width: 450px;
+    font-weight:bolder;
+  color: white;
+
+}
+.happy p{
+    margin-top: 10px;
+    
+}
+
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-left: 200px;
+width: 80%;
+height: 800px;
+margin-top: 20%;
+font-weight: bold;
+color: white;
+
+}
+.list ol{
+    padding-top: 30px;
+    text-align: start;
+    
+    
+}
+.list li{
+    border-bottom: 2px solid;
+    margin-left: 10px;
+    margin-top: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    width: 80%;
+    
+}
+
+.list li:hover{
+    color: #9F3152;
+}
+.list_img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+    margin-top: -10%;
+}
+
+.refrral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45%;
+    background: white;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.referral-1, .referral-2{
+    width: 500px;
+    font-size: larger;
+    color: #9F3152;
+    /* align-items: start; */
+    /* justify-content: start; */
+    
+}
+.arrow{
+    background: #9F3152;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 50px;
+    
+}
+.arrow:hover{
+    background-color: #FF9AB2;
+    color: #9F3152;
+}
+
+.Praise-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 10%;
+}
+
+.Praise-img{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+}
+
+.Praise-list{
+    align-items: start;
+    background-color: white;
+    border-radius: 30px;
+    width: 550px;
+    height: 550px;
+    margin-left: 30px;
+
+}
+
+.praise{
+    display: flex;
+    align-items: start;
+    margin-left: 80px;
+    font-weight:bold;
+    font-size: 70px;
+    color: #9F3152;
+}
+
+.Washing{
+        display: flex;
+    align-items: start;
+    margin-left: 80px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.Small, .Medium,.Large{
+    font-size: 10px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.size-prise{
+    align-items: center;
+    justify-content: space-around;
+}
+.HIcheck{
+    color:white;
+    background-color: #9F3152;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.dry-cleaning{
+    display: flex;
+    margin-left: 30px; 
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-self:flex-end;
+    margin-right: 50px;
+    color: #9F3152;
+    border: 1px solid #9F3152;
+    width: 300px;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.read-more:hover{
+    color:white;
+    background-color: #9F3152;
+}
+.FaArrowRight{
+    color: white;
+    padding: 20px;
+    background:#FF9AB2;
+    border-radius: 50%;
+    font-size: 10px; 
+}
+
+.FaArrowRight:hover{
+    background: #9F3152;
+}

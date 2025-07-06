@@ -1,0 +1,11 @@
+:root {
+    --color-gradient: rgb(254, 162, 184); /* example */
+}
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/Hornbill\ Personal\ Use\ Black.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
